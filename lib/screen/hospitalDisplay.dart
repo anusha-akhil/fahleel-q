@@ -424,7 +424,7 @@ class _HospitalScreenState extends State<HospitalScreen> {
                           child: ChewieListItem(
                             videoPlayerController:
                                 VideoPlayerController.network(
-                              'http://146.190.8.166/API/add.mp4',
+                              'http://146.190.8.166/API/2_add.mp4',
                             ),
                             looping: true,
                             adv_vol: value.adv_vol,
@@ -544,7 +544,7 @@ class _HospitalScreenState extends State<HospitalScreen> {
   ) async {
     print(
         "isspeaakkkk----${Provider.of<Controller>(context, listen: false).speechrate}");
-     if (isSpeak == "0") {
+    if (isSpeak == "0") {
       await flutterTts.setVolume(volume);
       await flutterTts.setPitch(pitch);
       await flutterTts.setSpeechRate(

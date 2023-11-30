@@ -6,7 +6,7 @@ import FlutterMacOS
 import Foundation
 
 import audio_session
-import connectivity_plus_macos
+import connectivity_plus
 import flutter_tts
 import just_audio
 import path_provider_macos
